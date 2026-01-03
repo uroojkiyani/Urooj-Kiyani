@@ -97,18 +97,5 @@ HTML/CSS
     <span>Problem Solving</span>
   </div>
 
-  <h2>🌐 Connect With Me</h2>
-  <div class="buttons">
-    <a href="https://github.com/urooj-kiyani">GitHub</a>
-    <a href="https://linkedin.com/in/urooj-kiyani">LinkedIn</a>
-    <a href="https://instagram.com/urooj.kiyani">Instagram</a>
-  </div>
-
-  <div class="footer" style="margin-top:30px; color:#fff;">
-    ✨ “Learning step by step, improving every day.” ✨ <br>
-    Thanks for visiting my profile 💙
-  </div>
-
-</div>
-
+  
 
