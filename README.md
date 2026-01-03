@@ -1,104 +1,114 @@
 # Urooj-Kiyani
 HTML/CSS
-<h1 align="center">Hi 👋, I'm Urooj Kiyani</h1>
+<h1 align="center">
+  👋 Hi, I'm <span style="color:#ff6f61;">Urooj Kiyani</span>
+</h1>
 <h3 align="center">Computer Science Student | Python Learner | Aspiring Developer</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Learning-blue" />
-  <img src="https://img.shields.io/badge/GitHub-Active-black" />
-  <img src="https://img.shields.io/badge/CS-Student-green" />
+  <img src="https://c.tenor.com/VpVh8_j6kbcAAAAC/coding-programmer.gif" width="250" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=urooj-kiyani&style=flat-square&color=blue" alt="Profile views" />
 </p>
 
 <style>
-  .container {
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .card {
     max-width: 900px;
     margin: auto;
-    font-family: Arial, sans-serif;
-  }
-  .card {
-    background-color: #f6f8fa;
     padding: 25px;
-    margin-top: 30px;
-    border-radius: 14px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s;
   }
-  h2 {
-    color: #2f81f7;
+
+  .card:hover {
+    transform: translateY(-10px);
   }
+
+  .buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    background: #0969da;
+  }
+
+  .buttons a:hover {
+    background: #2f81f7;
+    transform: scale(1.1);
+  }
+
+  h1 span {
+    animation: rainbow 3s infinite;
+  }
+
+  @keyframes rainbow {
+    0% {color: #ff6f61;}
+    25% {color: #f7d794;}
+    50% {color: #ffb142;}
+    75% {color: #6ab04c;}
+    100% {color: #ff6f61;}
+  }
+
   .skills span {
     display: inline-block;
-    background: #2f81f7;
-    color: white;
-    padding: 6px 14px;
     margin: 6px;
+    padding: 6px 14px;
     border-radius: 20px;
-    font-size: 14px;
-  }
-  .social a {
-    text-decoration: none;
-    color: #0969da;
+    background: #ff7979;
+    color: white;
     font-weight: bold;
+    transition: transform 0.2s;
   }
-  .footer {
-    text-align: center;
-    margin: 40px 0;
-    font-size: 14px;
-    color: gray;
+
+  .skills span:hover {
+    transform: scale(1.2);
   }
+
 </style>
 
-<div class="container">
+<div class="card">
 
-  <div class="card">
-    <h2>👩‍💻 About Me</h2>
-    <p>
-      I am a Computer Science student who is passionate about learning programming
-      and building strong problem-solving skills. I am currently working with Python,
-      GitHub, and core CS concepts. This profile reflects my learning journey and growth.
-    </p>
+  <h2>👩‍💻 About Me</h2>
+  <p>
+    I am a passionate Computer Science student learning Python, Web Development, and GitHub.
+    I love coding, building projects, and improving every day!
+  </p>
+
+  <h2>🚀 Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>C++</span>
+    <span>Git & GitHub</span>
+    <span>Problem Solving</span>
   </div>
 
-  <div class="card">
-    <h2>🚀 Skills</h2>
-    <div class="skills">
-      <span>Python</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>C++</span>
-      <span>Git & GitHub</span>
-      <span>Problem Solving</span>
-    </div>
+  <h2>🌐 Connect With Me</h2>
+  <div class="buttons">
+    <a href="https://github.com/urooj-kiyani">GitHub</a>
+    <a href="https://linkedin.com/in/urooj-kiyani">LinkedIn</a>
+    <a href="https://instagram.com/urooj.kiyani">Instagram</a>
   </div>
 
-  <div class="card">
-    <h2>🛠 Tools & Technologies</h2>
-    <ul>
-      <li>Visual Studio Code</li>
-      <li>GitHub</li>
-      <li>Windows</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>🌐 Connect With Me</h2>
-    <p class="social">
-      🔗 GitHub:
-      <a href="https://github.com/urooj-kiyani">github.com/urooj-kiyani</a><br><br>
-
-      💼 LinkedIn:
-      <a href="https://linkedin.com/in/urooj-kiyani">linkedin.com/in/urooj-kiyani</a><br><br>
-
-      📸 Instagram:
-      <a href="https://instagram.com/urooj.kiyani">instagram.com/urooj.kiyani</a><br><br>
-
-      📧 Email:
-      uroojkiyani030@gmail.com
-    </p>
-  </div>
-
-  <div class="footer">
+  <div class="footer" style="margin-top:30px; color:#fff;">
     ✨ “Learning step by step, improving every day.” ✨ <br>
     Thanks for visiting my profile 💙
   </div>
 
 </div>
+
 
